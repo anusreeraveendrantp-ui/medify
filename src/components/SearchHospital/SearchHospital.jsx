@@ -76,6 +76,7 @@ export default function SearchHospital() {
         name="state"
         value={formData.state}
         onChange={handleChange}
+        MenuProps={{ disablePortal: true }}
         startAdornment={
           <InputAdornment position="start">
             <SearchIcon />
@@ -100,6 +101,7 @@ export default function SearchHospital() {
         name="city"
         value={formData.city}
         onChange={handleChange}
+        MenuProps={{ disablePortal: true }}
         startAdornment={
           <InputAdornment position="start">
             <SearchIcon />
