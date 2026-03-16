@@ -1,7 +1,7 @@
 
-import { Chip, Stack, Typography, Divider } from "@mui/material";
+import { Chip, Stack, Divider } from "@mui/material";
 
-export default function TimeSlotPicker({
+export default function TimeSlotpicker({
   availableSlots,
   details,
   handleBooking,
@@ -43,12 +43,12 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
+          <p
             width={{ xs: 1, md: "15%" }}
             fontSize={{ xs: 14, md: 16 }}
           >
             Morning
-          </Typography>
+          </p>
           {availableSlots.morning.map((slot) => (
             <CustomChip
               key={slot}
@@ -65,12 +65,12 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
+          <p
             width={{ xs: 1, md: "15%" }}
             fontSize={{ xs: 14, md: 16 }}
           >
             Afternoon
-          </Typography>
+          </p>
           {availableSlots.afternoon.map((slot) => (
             <CustomChip
               key={slot}
@@ -87,12 +87,12 @@ export default function TimeSlotPicker({
           px={{ xs: 0, md: 6 }}
           flexWrap={"wrap"}
         >
-          <Typography
+          <p
             width={{ xs: 1, md: "15%" }}
             fontSize={{ xs: 14, md: 16 }}
           >
             Evening
-          </Typography>
+          </p>
           {availableSlots.evening.map((slot) => (
             <CustomChip
               key={slot}
