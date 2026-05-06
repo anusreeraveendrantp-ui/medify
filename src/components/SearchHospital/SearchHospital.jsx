@@ -78,7 +78,6 @@ export default function SearchHospital() {
       value={formData.state}
       onChange={handleChange}
       MenuProps={{
-        disablePortal: true,
         MenuListProps: { component: "ul" }
       }}
       startAdornment={
@@ -107,7 +106,6 @@ export default function SearchHospital() {
       value={formData.city}
       onChange={handleChange}
       MenuProps={{
-        disablePortal: true,
         MenuListProps: { component: "ul" }
       }}
       startAdornment={

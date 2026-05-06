@@ -80,7 +80,7 @@ export default function TimeSlotpicker({
           ))}
         </Stack>
       )}
-      {availableSlots.afternoon.length > 0 && (
+      {availableSlots.evening.length > 0 && (
         <Stack
           direction="row"
           alignItems="center"
